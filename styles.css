@@ -158,7 +158,30 @@ margin-top:30px;
 
 
 
-  @media screen(max-width: 600px){
+  @media (max-width: 600px) {
 
+    #order-summary-card{
+      margin:90px auto;
+      width: 200px;
+      background-color: white;
+      border-radius:20px;
+      height:800px;
+    }
+  
+    section{
+      width: 150px;
+      margin:0 auto;
+      text-align: center;
+    }
+
+    .pricing-section{
+      display: flex;
+      flex-direction: column;
+      height:200px;
+    }
+    .proceed-btn{
+      height:65px;
+    }
+    
     
   }
