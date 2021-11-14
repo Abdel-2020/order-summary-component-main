@@ -38,6 +38,8 @@ Users should be able to:
 
 ## My process
 
+
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -49,6 +51,8 @@ Users should be able to:
 Honestly? Not much, 
 
 I had the aim to make my CSS look as clean as possible, since in bigger projects I always seem to lose myself....  And then giving up on it entirely. I created the general structure and styling for everything by using the element names as the selectors. This created a foundation for me to work with and tweak the unique areas which still needed styling. 
+
+The below code made styling the rest of the card MUCH easier:
 
 
 ```css
