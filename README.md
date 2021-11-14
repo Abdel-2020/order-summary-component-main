@@ -31,10 +31,6 @@ Users should be able to:
 ![](images/desktop-preview.jpg)
 
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
 - Solution URL: https://github.com/Abdel-2020/order-summary-component-main
@@ -50,44 +46,66 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Honestly? Not much, 
 
-To see how you can add code snippets, see below:
+I had the aim to make my CSS look as clean as possible, since in bigger projects I always seem to lose myself....  And then giving up on it entirely. I created the general structure and styling for everything by using the element names as the selectors. This created a foundation for me to work with and tweak the unique areas which still needed styling. 
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    --hover-bright-blue:hsl(245, 75% ,70%);
+
+  }
+
+  *{
+      box-sizing:border-box;
+      margin:0;
+      padding:0;
+      font-family: "Red hat Display";
+  }
+
+  h1{
+    color:var(--dark-blue);
+    font-weight:900;
+  }
+
+  p{
+      font-size:16px;
+      color: var(--desaturated-blue)
+  }
+
+
+  body{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100vw; 
+    background-color: var(--pale-blue);
+
+  }
+
+  section{
+    width: 350px;
+    margin:0 auto;
+    text-align: center;
+  }
+
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@abdelcodes](https://www.twitter.com/abdelcodes)
 
@@ -95,6 +113,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Me, myself and IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII,
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Big shout out to LoFi Girl who made this 3 hour sitting feel timeless, watch her at: https://youtu.be/5qap5aO4i9A
