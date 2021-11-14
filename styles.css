@@ -1,0 +1,157 @@
+/*General Stuff*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    --hover-bright-blue:hsl(245, 75% ,70%);
+
+  }
+
+  *{
+      box-sizing:border-box;
+      margin:0;
+      padding:0;
+      font-family: "Red hat Display";
+  }
+
+  h1{
+    color:var(--dark-blue);
+    font-weight:900;
+  }
+
+  p{
+      font-size:16px;
+      color: var(--desaturated-blue)
+  }
+
+
+  body{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100vw; 
+    background-color: var(--pale-blue);
+
+  }
+
+  section{
+    width: 350px;
+    margin:0 auto;
+    text-align: center;
+  }
+
+  /*End of General Stuff*/
+
+
+  /*Order Summary Section*/
+
+  #order-summary-card{
+    margin:90px auto;
+    width: 450px;
+    background-color: white;
+    border-radius:20px;
+    height:700px;
+  }
+
+  .hero-img{
+      border-radius:  20px 20px 0 0;
+      width:100%;
+  }
+
+.card-title{
+    margin-top:20px;
+    padding:15px;
+    font-size:1.7em; 
+}
+
+.card-text{
+    line-height: 1.5rem;
+    font-weight:400;
+  }
+
+/* End of Order Summary Section*/  
+
+
+/* Pricing Section*/
+
+.pricing-section{
+    display: grid;
+    grid-template-columns:  0.5fr  1fr 70px;
+    grid-gap: 10px;
+    align-items: center;
+    background-color: var(--very-pale-blue);
+    height:100px;
+    padding:25px;
+    margin-top:20px;
+    border-radius: 15px;
+  
+}
+
+.pricing-icon{
+    margin: auto;
+    grid-column: 0/1;
+}
+
+
+.pricing-title{
+    grid-column: 1/2;
+    font-size: 1rem;
+
+
+}
+.pricing-link{
+    font-weight: 900;
+    color:var(--bright-blue);
+    grid-column: 2/3;
+}
+
+.pricing-link:hover{
+    text-decoration: none;
+    color:var(--hover-bright-blue);
+}
+
+  /* End of Pricing Section*/
+
+
+  /* Buttons section*/
+
+.proceed-btn{
+    margin-top:30px;
+    height : 50px;
+    border-radius: 10px;
+    padding:15px;
+    background-color: var(--bright-blue);
+    filter: drop-shadow(0px 5px 5px var(--bright-blue));
+}
+
+
+.proceed-btn:hover{
+    background-color:var(--hover-bright-blue);
+    filter: drop-shadow(0px 5px 5px var(--hover-bright-blue));
+}
+
+.proceed-btn > a{
+    text-decoration: none;
+    font-weight:700;
+    color: var(--very-pale-blue);
+}
+
+.cancel-btn{
+margin-top:30px;
+}
+
+.cancel-btn > a{
+    text-align: center;
+    text-decoration: none;
+    font-weight:700;
+     color:var(--desaturated-blue);
+}
+.cancel-btn >a:hover{
+    color:black;
+}
+  /* End of Buttons section*/
