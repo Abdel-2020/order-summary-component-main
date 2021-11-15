@@ -162,26 +162,20 @@ margin-top:30px;
 
     #order-summary-card{
       margin:90px auto;
-      width: 200px;
+      width: 350px;
       background-color: white;
       border-radius:20px;
       height:800px;
     }
   
     section{
-      width: 150px;
+      width: 300px;
       margin:0 auto;
       text-align: center;
     }
 
-    .pricing-section{
-      display: flex;
-      flex-direction: column;
-      height:200px;
-    }
-    .proceed-btn{
-      height:65px;
-    }
+   
+   
     
     
   }
